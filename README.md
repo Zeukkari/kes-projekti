@@ -36,22 +36,20 @@ Heinäkuu:
 
 ## 3D-printtaus
 
-Printterimalli: https://www.creality3d.shop/products/creality3d-ender-3-pro-high-precision-3d-printer
+[Creality Ender 3 Pro](https://www.creality3d.shop/products/creality3d-ender-3-pro-high-precision-3d-printer) - [quick start](https://www.youtube.com/watch?v=dQ0q9zLygTY):
 
-Creality Ender 3 Pro - quick start: https://www.youtube.com/watch?v=dQ0q9zLygTY 
+Sliceri -> [CURA](https://ultimaker.com/software/ultimaker-cura)
 
-Sliceri -> CURA: https://ultimaker.com/software/ultimaker-cura
+[Petsfang 3D printing mods](http://www.dpetsel.com/)
 
-Petsfang 3D printing mods: http://www.dpetsel.com/
+[Thingieverse 3D-printattavia malleja](https://www.thingiverse.com/)
 
-Thingieverse 3D-printattavia malleja: https://www.thingiverse.com/
-
-westgstr: https://www.youtube.com/c/WEGSTRCNC
+[westgstr youtube](https://www.youtube.com/c/WEGSTRCNC)
 
 
 ## Security / pentesting
 
-https://www.nixu.com/blog/30-days-cybersecurity-heres-your-summertime-challenge
+[Nixu 30 days of cybersecurity](https://www.nixu.com/blog/30-days-cybersecurity-heres-your-summertime-challenge)
 
 https://gitlab.com/CinCan/workshops/-/tree/master/
 
@@ -108,7 +106,7 @@ https://www.howequipmentworks.com/
 
 ### IR transmission
 
-NEC protocol description: https://simple-circuit.com/pic16f887-extended-nec-protocol-decoder/
+[NEC protocol description](https://simple-circuit.com/pic16f887-extended-nec-protocol-decoder/)
 
 
 ## Guitar lessons
@@ -122,32 +120,32 @@ https://www.justinguitar.com/
 
 https://plato.stanford.edu/entries/cellular-automata/supplement.html
 
-Bisqwit raytracer for DOS: https://www.youtube.com/watch?v=N8elxpSu9pw
+[Bisqwit raytracer for DOS](https://www.youtube.com/watch?v=N8elxpSu9pw)
 
 
 ## PCB Design & Fabrication
 
 ### Electronics Design Automation
 
-EasyEDA -> https://sourceforge.net/projects/eaglecad/
-EAGLE -> https://www.autodesk.com/products/eagle/overview?plc=F360&term=1-YEAR&support=ADVANCED&quantity=1
-Kicad -> KiCAD: https://kicad-pcb.org/
+[EasyEDA](https://sourceforge.net/projects/eaglecad/)
+[EAGLE](https://www.autodesk.com/products/eagle/overview?plc=F360&term=1-YEAR&support=ADVANCED&quantity=1)
+[KiCAD](https://kicad-pcb.org/)
 
 ### KiCAD
 
-KiCAD quick start: https://www.youtube.com/watch?v=zK3rDhJqMu0
+[KiCAD quick start](https://www.youtube.com/watch?v=zK3rDhJqMu0)
 
-Beginners guide to KiCAD: https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all
+[Beginners guide to KiCAD](https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all)
 
-Kicad Like a Pro: https://techexplorations.com/so/kicada/
+[Kicad Like a Pro](https://techexplorations.com/so/kicada/)
 
-Footprint tutorial: https://forum.kicad.info/t/tutorial-how-to-make-a-footprint-from-scratch/11092
+[Footprint tutorial](https://forum.kicad.info/t/tutorial-how-to-make-a-footprint-from-scratch/11092)
 
 KiCAD extensions:
 
-- Interactive BOM: https://github.com/openscopeproject/InteractiveHtmlBom
+- [Interactive BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
 
-- https://github.com/KiCad/kicad-footprints
+- [kicad-footprints](https://github.com/KiCad/kicad-footprints)
 
 
 ### Fabrication
