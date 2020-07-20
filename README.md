@@ -33,6 +33,8 @@ Heinäkuu:
 
 - Kicadiin ja PCB-suunnitteluprosessiin tutustuminen.
 
+- Piirilevyn suunnittelu.
+
 
 ## 3D-printtaus
 
