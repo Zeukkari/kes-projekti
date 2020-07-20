@@ -20,9 +20,9 @@ Kesäkuu:
 
 - 3D-printteriin tutustuminen.
 
-- Open source summit north america 29.6-2.7.
+- [Open source summit north america 29.6-2.7](https://ossna2020.sched.com/).
 
-- edX.com sähkömekaniikan perusteet -kurssi.
+- [edX.com sähkömekaniikan perusteet -kurssi](https://www.edx.org/course/mechatronics).
 
 
 Heinäkuu:
@@ -36,7 +36,7 @@ Heinäkuu:
 
 ## 3D-printtaus
 
-[Creality Ender 3 Pro](https://www.creality3d.shop/products/creality3d-ender-3-pro-high-precision-3d-printer) - [quick start](https://www.youtube.com/watch?v=dQ0q9zLygTY):
+[Creality Ender 3 Pro](https://www.creality3d.shop/products/creality3d-ender-3-pro-high-precision-3d-printer) - [quick start](https://www.youtube.com/watch?v=dQ0q9zLygTY)
 
 Sliceri -> [CURA](https://ultimaker.com/software/ultimaker-cura)
 
