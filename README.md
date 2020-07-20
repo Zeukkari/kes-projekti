@@ -81,10 +81,6 @@ https://github.com/solokeys/solo
 
 https://events.linuxfoundation.org/open-source-summit-north-america/
 
-https://onlinexperiences.com/scripts/Server.nxp
-
-https://content.onlinexperiences.com/FileLibrary/4634/33/OSS_ELC_NA_2020_AttendeeGuide.pdf
-
 https://wiki.nftables.org/wiki-nftables/index.php/Main_Page
 
 https://en.wikipedia.org/wiki/Nftables
