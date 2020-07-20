@@ -7,18 +7,13 @@ Testiprojekti: Tehdään minimalistinen muutaman näppäimen IR-kaukosäädin va
 
 ## Aikataulua
 
-Huhtikuu:
-
-- Tietoturvaan liittyvien asioiden opettelua.
-
-
 Toukokuu:
-
-- ZFS:ään tutstuminen, backuppien teko.
 
 - Raspberrypi deskarien testailu.
 
 - Laitteiston hankintaa.
+
+- ZFS:ään tutstuminen, backuppien teko.
 
 
 Kesäkuu:
