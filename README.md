@@ -128,8 +128,11 @@ https://plato.stanford.edu/entries/cellular-automata/supplement.html
 ### Electronics Design Automation
 
 [EasyEDA](https://sourceforge.net/projects/eaglecad/)
+
 [EAGLE](https://www.autodesk.com/products/eagle/overview?plc=F360&term=1-YEAR&support=ADVANCED&quantity=1)
+
 [KiCAD](https://kicad-pcb.org/)
+
 
 ### KiCAD
 
