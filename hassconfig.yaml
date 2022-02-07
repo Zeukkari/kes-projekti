@@ -1,0 +1,5 @@
+shell_command:
+  volume_down: 'ssh -i /config/ssh/id_rsa -o StrictHostKeyChecking=no pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo volumeDown > /dev/ttyUSB0"'
+  volume_up: 'ssh -i /config/ssh/id_rsa -o StrictHostKeyChecking=no pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo volumeUp > /dev/ttyUSB0"'
+  input_switch: 'ssh -i /config/ssh/id_rsa -o StrictHostKeyChecking=no pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo inputSwitch > /dev/ttyUSB0"'
+  toggle_power: 'ssh -i /config/ssh/id_rsa -o StrictHostKeyChecking=no pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo togglePower > /dev/ttyUSB0"'

@@ -163,3 +163,12 @@ https://jlcpcb.com/
 
 https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files
 
+
+
+------
+
+
+ssh pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo "volumeDown" > /dev/ttyUSB0"
+ssh pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo "volumeUp" > /dev/ttyUSB0"
+ssh pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo "inputSwitch" > /dev/ttyUSB0"
+ssh pi@telkkari.internal.zeukkari.dev "stty -F /dev/ttyUSB0 9600 && echo "togglePower" > /dev/ttyUSB0"
