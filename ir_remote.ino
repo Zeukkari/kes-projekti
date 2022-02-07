@@ -11,6 +11,7 @@ IRsend irsend;
 #define buttonPin3 6
 #define buttonPin4 7
 #define debugPin 12
+// int debugPin = 12;
 
 // Variables will change:
 int buttonPushCounter = 0;   // counter for the number of button presses
@@ -26,6 +27,9 @@ boolean triggerAction = false;
 
 long unsigned int irCode;
 long unsigned int lastIRCode;
+
+// const int BUFFER_SIZE = 50;
+// char buf[BUFFER_SIZE];
 
 void setup(){
   pinMode(buttonPin1, INPUT);
@@ -44,6 +48,45 @@ void loop(){
   buttonState3 = digitalRead(buttonPin3);
   buttonState4 = digitalRead(buttonPin4);  
   triggerAction = false;
+
+  // check if data is available
+  
+  if (Serial.available() > 0) {
+    String ch;
+    ch = Serial.readString();
+    ch.trim();
+    
+    // read the incoming bytes:
+    // int rlen = Serial.readBytes(buf, BUFFER_SIZE);
+
+    // prints the received data
+    //Serial.print("I received: ");
+    //for(int i = 0; i < rlen; i++) {
+    //  Serial.print(buf[i]);      
+    //}
+    if(ch == "volumeDown") {
+      irCode = volumeDown;
+      triggerAction = true;
+      Serial.println("volumeDown");
+    }
+    if(ch == "volumeUp") {
+      irCode = volumeUp;
+      triggerAction = true; 
+      Serial.println("volumeUp");
+    }
+    if(ch == "inputSwitch") {
+      irCode = inputSwitch;
+      triggerAction = true;
+      Serial.println("inputSwitch"); 
+    }
+    if(ch == "togglePower") {
+      irCode = togglePower;
+      triggerAction = true; 
+      Serial.println("togglePower");
+    }
+  }
+  
+  
 
   // compare the buttonState to its previous state
   if (buttonState != lastButtonState) { // power button
@@ -88,6 +131,8 @@ void loop(){
   lastButtonState2 = buttonState2;
   lastButtonState3 = buttonState3;
   lastButtonState4 = buttonState4;
+
+
 
   if(triggerAction) {
     digitalWrite(debugPin, HIGH);
