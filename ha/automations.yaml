@@ -1,0 +1,43 @@
+- id: '1644258811700'
+  alias: voldown
+  description: ''
+  trigger: []
+  condition: []
+  action:
+  - service: shell_command.volume_down
+  mode: single
+- id: '1644258839000'
+  alias: volup
+  description: ''
+  trigger: []
+  condition: []
+  action:
+  - service: shell_command.volume_up
+  mode: single
+- id: '1644258854700'
+  alias: tvinput
+  description: ''
+  trigger: []
+  condition: []
+  action:
+  - service: shell_command.input_switch
+  mode: single
+- id: '1644258867700'
+  alias: tv_power
+  description: ''
+  trigger: []
+  condition: []
+  action:
+  - service: shell_command.toggle_power
+  mode: single
+- id: '1644260869800'
+  alias: Toggle TV At Night
+  description: ''
+  trigger:
+  - platform: time
+    at: input_datetime.nighttime
+    id: nighttimetrigger
+  condition: []
+  action:
+  - service: shell_command.toggle_power
+  mode: single
